@@ -1,0 +1,3 @@
+D:/BSUIR/BoAaP/_2nd sem/2 lab/cmake-build-debug/CMakeFiles/2_lab.dir
+D:/BSUIR/BoAaP/_2nd sem/2 lab/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/BSUIR/BoAaP/_2nd sem/2 lab/cmake-build-debug/CMakeFiles/rebuild_cache.dir

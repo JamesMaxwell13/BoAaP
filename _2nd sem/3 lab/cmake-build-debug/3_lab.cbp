@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="3_lab"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/programming/labs/_2nd sem/3 lab/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/programming/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/programming/labs/_2nd sem/3 lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/programming/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/programming/labs/_2nd sem/3 lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/programming/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/programming/labs/_2nd sem/3 lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/programming/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/programming/labs/_2nd sem/3 lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3_lab">
+				<Option output="D:/programming/labs/_2nd sem/3 lab/cmake-build-debug/3_lab.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/programming/labs/_2nd sem/3 lab/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/programming/labs/_2nd sem/3 lab/."/>
+					<Add directory="D:/programming/labs/_2nd sem/3 lab/clear"/>
+					<Add directory="D:/programming/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/programming/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/programming/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/programming/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/programming/labs/_2nd sem/3 lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 3_lab"/>
+					<CompileFile command="D:/programming/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/programming/labs/_2nd sem/3 lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/programming/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/programming/labs/_2nd sem/3 lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/programming/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/programming/labs/_2nd sem/3 lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3_lab/fast">
+				<Option output="D:/programming/labs/_2nd sem/3 lab/cmake-build-debug/3_lab.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/programming/labs/_2nd sem/3 lab/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/programming/labs/_2nd sem/3 lab/."/>
+					<Add directory="D:/programming/labs/_2nd sem/3 lab/clear"/>
+					<Add directory="D:/programming/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/programming/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/programming/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/programming/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/programming/labs/_2nd sem/3 lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 3_lab/fast"/>
+					<CompileFile command="D:/programming/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/programming/labs/_2nd sem/3 lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/programming/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/programming/labs/_2nd sem/3 lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/programming/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/programming/labs/_2nd sem/3 lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/programming/labs/_2nd sem/3 lab/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/programming/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/programming/labs/_2nd sem/3 lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/programming/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/programming/labs/_2nd sem/3 lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/programming/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/programming/labs/_2nd sem/3 lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/programming/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/programming/labs/_2nd sem/3 lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/programming/labs/_2nd sem/3 lab/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/programming/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/programming/labs/_2nd sem/3 lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/programming/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/programming/labs/_2nd sem/3 lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/programming/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/programming/labs/_2nd sem/3 lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/programming/mingw/mingw64/bin/mingw32-make.exe -f &quot;D:/programming/labs/_2nd sem/3 lab/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/programming/labs/_2nd sem/3 lab/clear/3lab.c">
+			<Option target="3_lab"/>
+		</Unit>
+		<Unit filename="D:/programming/labs/_2nd sem/3 lab/clear/funcs.h">
+			<Option target="3_lab"/>
+		</Unit>
+		<Unit filename="D:/programming/labs/_2nd sem/3 lab/clear/struct.h">
+			<Option target="3_lab"/>
+		</Unit>
+		<Unit filename="D:/programming/labs/_2nd sem/3 lab/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

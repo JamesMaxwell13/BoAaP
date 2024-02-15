@@ -1,0 +1,53 @@
+//USES CRT;
+const n = 3; m = 3;
+VAR A:array[1..n, 1..m] of byte;
+i,j:byte;
+S, Smin:integer;
+
+procedure Find_summa_min(Var S,Smin: integer; var i,j: byte);
+begin
+  
+  S:=S+ A[i,j];
+  Write(A[i,j], ' ');
+  if (i = n) and (j=m) then
+    begin
+    writeln;
+    if (S < Smin) or (Smin = -1) then
+      Smin := S
+    end
+  else
+    begin
+      if j < m then
+      begin
+        j:=j+1;
+        Find_summa_min(S,Smin,i,j);    
+        j:=j-1;
+      end;
+      if i < n then
+        begin
+        i:=i+1;
+        Find_summa_min(S,Smin,i,j);    
+        i:=i-1;
+      end;
+    end; 
+    S:=S - A[i,j];
+end;
+
+
+BEGIN
+for i := 1 to n do
+    begin
+    for j := 1 to m do
+      begin
+        A[i,j]:=Random(5);
+        write(A[i,j],' ');
+      end;
+      writeln;
+    end;
+   writeln;
+   i:= 1; j:=1;
+   S:= 0;
+   Smin := -1;
+   Find_summa_min(S,Smin,i,j);
+   write(Smin)
+end.

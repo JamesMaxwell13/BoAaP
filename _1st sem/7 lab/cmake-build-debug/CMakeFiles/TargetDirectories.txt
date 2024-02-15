@@ -1,0 +1,3 @@
+D:/programming/labs/7 lab/cmake-build-debug/CMakeFiles/Sorts.dir
+D:/programming/labs/7 lab/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/programming/labs/7 lab/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,5 @@
+{
+    "debug.autoExpandLazyVariables": false,
+    "debug.inlineValues": "on",
+    "debug.console.acceptSuggestionOnEnter": "on"
+}
